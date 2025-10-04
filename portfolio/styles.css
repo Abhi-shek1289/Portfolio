@@ -321,6 +321,7 @@ profile-photo .img{
 
 
 
+
 /*---------------------------Projects---------------------------*/
 .project-content{
   padding: 90px 0;
@@ -342,8 +343,9 @@ profile-photo .img{
 }
 .projects{
   display: flex;
-  justify-content:space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
+  gap: 20px;
 }
 .project{
     /* padding: 30px 15px; */
